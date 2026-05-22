@@ -1,0 +1,22 @@
+# Deployment artifacts — generated during rollouts, not source
+*-rollout.zip
+*.zip
+
+# Base64 build chunks used during the language rollout pipeline
+*.b64
+*.b64.*
+*.b64.chunk*
+
+# Pre-edit backup, no longer needed
+index.original.html
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
