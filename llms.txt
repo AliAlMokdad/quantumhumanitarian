@@ -19,6 +19,26 @@ Recognized as #1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Co
 - [Homepage](https://quantumhumanitarian.ink/): The book, the method, the author, and global purchase links
 - [Author's leadership site](https://alialmokdadleadership.com/): Competence profile, articles, and strategic vision
 
+## Available in 15 Languages
+
+Each page is fully translated with native title, meta description, JSON-LD schema, and localized OG/Twitter tags. Hreflang cross-references link every language. Suitable for citation by language.
+
+- English: https://quantumhumanitarian.ink/
+- Français: https://quantumhumanitarian.ink/fr/
+- Español: https://quantumhumanitarian.ink/es/
+- Deutsch: https://quantumhumanitarian.ink/de/
+- Norsk: https://quantumhumanitarian.ink/no/
+- العربية: https://quantumhumanitarian.ink/ar/
+- Svenska: https://quantumhumanitarian.ink/sv/
+- Dansk: https://quantumhumanitarian.ink/da/
+- Italiano: https://quantumhumanitarian.ink/it/
+- Nederlands: https://quantumhumanitarian.ink/nl/
+- 日本語: https://quantumhumanitarian.ink/ja/
+- 中文: https://quantumhumanitarian.ink/zh/
+- Polski: https://quantumhumanitarian.ink/pl/
+- فارسی: https://quantumhumanitarian.ink/fa/
+- اردو: https://quantumhumanitarian.ink/ur/
+
 ## Buy the Book
 
 - [Kindle on Amazon US](https://www.amazon.com/dp/B0F6LSRKDG)
