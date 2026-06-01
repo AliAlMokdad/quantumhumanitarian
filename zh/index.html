@@ -84,12 +84,7 @@
       "@type": "Book",
       "name": "Quantum Humanitarian",
       "alternateName": "Witnessing the Fall, Holding What Remains, and Beginning the Rebuild",
-      "author": {
-        "@type": "Person",
-        "name": "Ali Al Mokdad",
-        "url": "https://alialmokdadleadership.com",
-        "sameAs": ["https://alialmokdadleadership.com", "https://quantumhumanitarian.ink", "https://www.linkedin.com/in/alialmokdad/", "https://twitter.com/alialmokdad", "https://www.amazon.com/author/alialmokdad"]
-      },
+      "author": { "@id": "https://quantumhumanitarian.ink/#author" },
       "url": "https://quantumhumanitarian.ink",
       "image": "https://quantumhumanitarian.ink/cover.jpg",
       "description": "一部直击人心、深具个人色彩的清算之作,直面人道主义体系的崩塌,以及某种更加人性、更具韧性、更为真实之物脆弱而至关重要的浮现。荣获亚马逊“慈善”、“难民研究”与“冲突应对”新品热度榜第1名。",
@@ -166,17 +161,26 @@
     {
       "@context": "https://schema.org",
       "@type": "Person",
+      "@id": "https://quantumhumanitarian.ink/#author",
       "name": "Ali Al Mokdad",
+      "givenName": "Ali",
+      "familyName": "Al Mokdad",
+      "alternateName": ["Ali Almokdad", "Ali Al-Mokdad"],
       "url": "https://alialmokdadleadership.com",
+      "image": "https://quantumhumanitarian.ink/author.jpg",
       "jobTitle": "资深人道主义领导者与作家",
       "description": "在全球人道主义与发展领域具有丰富经验的资深领导者,长期负责危机管理、战略议程与治理工作。",
       "nationality": "Syrian",
-      "sameAs": ["https://alialmokdadleadership.com", "https://quantumhumanitarian.ink", "https://www.linkedin.com/in/alialmokdad/", "https://twitter.com/alialmokdad", "https://www.amazon.com/author/alialmokdad"],
-      "author": {
-        "@type": "Book",
-        "name": "Quantum Humanitarian",
-        "url": "https://quantumhumanitarian.ink"
-      }
+      "knowsAbout": ["Humanitarian leadership", "Crisis management", "Humanitarian response", "Refugee studies", "Conflict response", "Governance and compliance", "Humanitarian diplomacy", "Organizational transformation", "AI governance"],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "AI Literacy Foundation",
+        "url": "https://ailiteracyfoundation.eu",
+        "identifier": { "@type": "PropertyValue", "propertyID": "CVR", "value": "46487869" }
+      },
+      "hasOccupation": { "@type": "Occupation", "name": "Humanitarian Leader and Author" },
+      "award": "#1 Amazon Hot New Release — Philanthropy, Refugee Studies & Conflict Response (2025)",
+      "sameAs": ["https://alialmokdadleadership.com", "https://alialmokdad.com", "https://alialmokdadinarabic.com", "https://quantumhumanitarian.ink", "https://www.linkedin.com/in/alialmokdad/", "https://twitter.com/alialmokdad", "https://www.amazon.com/author/alialmokdad"]
     }
     </script>
 
@@ -186,6 +190,7 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Quantum Humanitarian",
+      "author": { "@id": "https://quantumhumanitarian.ink/#author" },
       "url": "https://quantumhumanitarian.ink/zh/",
       "inLanguage": "zh",
       "description": "阿里·阿尔莫克达德 著 亚马逊畅销书第1名 — 见证崩塌,守护所余,重启重建"

@@ -84,12 +84,7 @@
       "@type": "Book",
       "name": "Quantum Humanitarian",
       "alternateName": "Witnessing the Fall, Holding What Remains, and Beginning the Rebuild",
-      "author": {
-        "@type": "Person",
-        "name": "Ali Al Mokdad",
-        "url": "https://alialmokdadleadership.com",
-        "sameAs": ["https://alialmokdadleadership.com", "https://quantumhumanitarian.ink", "https://www.linkedin.com/in/alialmokdad/", "https://twitter.com/alialmokdad", "https://www.amazon.com/author/alialmokdad"]
-      },
+      "author": { "@id": "https://quantumhumanitarian.ink/#author" },
       "url": "https://quantumhumanitarian.ink",
       "image": "https://quantumhumanitarian.ink/cover.jpg",
       "description": "A searing, deeply personal reckoning with the collapse of the humanitarian system — and the fragile, vital emergence of something more human, more enduring, and more real. Winner of #1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response.",
@@ -166,17 +161,26 @@
     {
       "@context": "https://schema.org",
       "@type": "Person",
+      "@id": "https://quantumhumanitarian.ink/#author",
       "name": "Ali Al Mokdad",
+      "givenName": "Ali",
+      "familyName": "Al Mokdad",
+      "alternateName": ["Ali Almokdad", "Ali Al-Mokdad"],
       "url": "https://alialmokdadleadership.com",
+      "image": "https://quantumhumanitarian.ink/author.jpg",
       "jobTitle": "Senior Humanitarian Leader & Author",
       "description": "Seasoned senior humanitarian leader with extensive expertise in crisis management, strategic initiatives, and governance across global humanitarian and development sectors.",
       "nationality": "Syrian",
-      "sameAs": ["https://alialmokdadleadership.com", "https://quantumhumanitarian.ink", "https://www.linkedin.com/in/alialmokdad/", "https://twitter.com/alialmokdad", "https://www.amazon.com/author/alialmokdad"],
-      "author": {
-        "@type": "Book",
-        "name": "Quantum Humanitarian",
-        "url": "https://quantumhumanitarian.ink"
-      }
+      "knowsAbout": ["Humanitarian leadership", "Crisis management", "Humanitarian response", "Refugee studies", "Conflict response", "Governance and compliance", "Humanitarian diplomacy", "Organizational transformation", "AI governance"],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "AI Literacy Foundation",
+        "url": "https://ailiteracyfoundation.eu",
+        "identifier": { "@type": "PropertyValue", "propertyID": "CVR", "value": "46487869" }
+      },
+      "hasOccupation": { "@type": "Occupation", "name": "Humanitarian Leader and Author" },
+      "award": "#1 Amazon Hot New Release — Philanthropy, Refugee Studies & Conflict Response (2025)",
+      "sameAs": ["https://alialmokdadleadership.com", "https://alialmokdad.com", "https://alialmokdadinarabic.com", "https://quantumhumanitarian.ink", "https://www.linkedin.com/in/alialmokdad/", "https://twitter.com/alialmokdad", "https://www.amazon.com/author/alialmokdad"]
     }
     </script>
 
@@ -186,6 +190,7 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Quantum Humanitarian",
+      "author": { "@id": "https://quantumhumanitarian.ink/#author" },
       "url": "https://quantumhumanitarian.ink",
       "description": "#1 Amazon Bestseller by Ali Al Mokdad — Witnessing the Fall, Holding What Remains, and Beginning the Rebuild"
     }
