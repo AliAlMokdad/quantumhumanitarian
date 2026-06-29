@@ -240,6 +240,26 @@
     }
     </script>
 
+    <!-- VideoObject: Quantum Humanitarian clip -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": "Quantum Humanitarian. Authored by Ali Al Mokdad.",
+      "description": "Ali Al Mokdad on Quantum Humanitarian — a searing, deeply personal reckoning with the collapse of the humanitarian system, and the fragile, vital emergence of something more human, more enduring, and more real.",
+      "thumbnailUrl": ["https://i.ytimg.com/vi/nlKzqosz4-M/hqdefault.jpg", "https://i.ytimg.com/vi/nlKzqosz4-M/oardefault.jpg"],
+      "uploadDate": "2026-04-03",
+      "duration": "PT12S",
+      "contentUrl": "https://www.youtube.com/watch?v=nlKzqosz4-M",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/nlKzqosz4-M",
+      "url": "https://quantumhumanitarian.ink/",
+      "publisher": { "@type": "Person", "name": "Ali Al Mokdad" },
+      "author": { "@type": "Person", "name": "Ali Al Mokdad" },
+      "about": { "@type": "Book", "name": "Quantum Humanitarian", "author": { "@type": "Person", "name": "Ali Al Mokdad" } },
+      "inLanguage": "en"
+    }
+    </script>
+
     <!-- Free Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -267,7 +287,7 @@
     --cream:   #f0ebe0;
     --cream-d: #ccc5b4;
     --dim:     rgba(240,235,224,0.55);
-    --dimmer:  rgba(240,235,224,0.28);
+    --dimmer:  rgba(240,235,224,0.55);
     --serif:   'Cormorant Garamond', Georgia, serif;
     --sans:    'Inter', system-ui, sans-serif;
 }
@@ -534,7 +554,7 @@ html[dir="rtl"] .lang-item.lang-active { border-right-color: var(--gold); }
     font-size: clamp(0.95rem, 1.3vw, 1.1rem);
     font-style: italic;
     font-weight: 300;
-    color: var(--dim);
+    color: var(--cream-d);
     line-height: 1.65;
     margin: 26px 0 12px;
     opacity: 1;
@@ -1677,7 +1697,6 @@ footer {
     </div>
 
     <div class="scroll-cue">
-        <span class="scroll-cue-label">Scroll</span>
         <div class="scroll-cue-line"></div>
     </div>
 </section>
@@ -1692,6 +1711,47 @@ footer {
             more enduring, and more real.
         </p>
         <p class="m-attr">The Premise of Quantum Humanitarian</p>
+        <!-- QH PREMISE CLIP -->
+        <style>
+        #manifesto .qh-clip{margin:clamp(48px,7vw,74px) auto 0;display:flex;flex-direction:column;align-items:center}
+        #manifesto .qh-clip-btn{display:block;cursor:pointer;border:0;background:none;padding:0;width:clamp(220px,62vw,300px)}
+        #manifesto .qh-clip-frame{position:relative;display:block;width:100%;aspect-ratio:9/16;border-radius:16px;overflow:hidden;background:#04040a;border:1px solid rgba(201,168,76,0.28);box-shadow:0 30px 70px -30px rgba(0,0,0,0.9);transition:transform .5s cubic-bezier(.22,.61,.36,1),border-color .5s cubic-bezier(.22,.61,.36,1),box-shadow .5s cubic-bezier(.22,.61,.36,1)}
+        #manifesto .qh-clip-btn:hover .qh-clip-frame,#manifesto .qh-clip-btn:focus-visible .qh-clip-frame{transform:translateY(-6px);border-color:rgba(201,168,76,0.6);box-shadow:0 40px 90px -30px rgba(0,0,0,0.95),0 0 0 1px rgba(201,168,76,0.3)}
+        #manifesto .qh-clip-frame img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s cubic-bezier(.22,.61,.36,1)}
+        #manifesto .qh-clip-btn:hover .qh-clip-frame img{transform:scale(1.05)}
+        #manifesto .qh-clip-frame::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(4,4,10,0.6));pointer-events:none}
+        #manifesto .qh-clip-frame.is-playing::after{display:none}
+        #manifesto .qh-clip-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:2;width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:rgba(7,7,15,0.5);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);border:1.5px solid rgba(240,235,224,0.55);filter:drop-shadow(0 2px 10px rgba(0,0,0,0.55));transition:.45s cubic-bezier(.22,.61,.36,1)}
+        #manifesto .qh-clip-btn:hover .qh-clip-play,#manifesto .qh-clip-btn:focus-visible .qh-clip-play{background:linear-gradient(120deg,var(--gold,#c9a84c),var(--gold-lt,#e4c97e));border-color:transparent;transform:translate(-50%,-50%) scale(1.06)}
+        #manifesto .qh-clip-play svg{width:22px;height:22px;margin-left:3px;fill:var(--cream,#f0ebe0);transition:fill .45s}
+        #manifesto .qh-clip-btn:hover .qh-clip-play svg,#manifesto .qh-clip-btn:focus-visible .qh-clip-play svg{fill:#07070f}
+        #manifesto .qh-clip-dur{position:absolute;right:10px;bottom:10px;z-index:2;font-family:var(--sans,'Inter',sans-serif);font-size:0.72rem;font-weight:600;letter-spacing:.03em;padding:4px 9px;border-radius:7px;background:rgba(4,4,10,0.78);color:var(--cream,#f0ebe0)}
+        #manifesto .qh-clip-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+        #manifesto .qh-clip-btn:focus-visible{outline:1.5px solid var(--gold,#c9a84c);outline-offset:6px;border-radius:18px}
+        @media(prefers-reduced-motion:reduce){#manifesto .qh-clip-frame,#manifesto .qh-clip-frame img,#manifesto .qh-clip-play{transition:none}#manifesto .qh-clip-btn:hover .qh-clip-frame{transform:none}#manifesto .qh-clip-btn:hover .qh-clip-frame img{transform:none}}
+        </style>
+        <div class="qh-clip reveal from-below">
+            <button class="qh-clip-btn" type="button" id="qhClipBtn" aria-label="Play the Quantum Humanitarian clip, 12 seconds">
+                <span class="qh-clip-frame">
+                    <img src="https://i.ytimg.com/vi/nlKzqosz4-M/oardefault.jpg" alt="Quantum Humanitarian, a short clip by Ali Al Mokdad" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.objectFit='contain';this.src='https://i.ytimg.com/vi/nlKzqosz4-M/hqdefault.jpg';">
+                    <span class="qh-clip-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+                    <span class="qh-clip-dur">0:12</span>
+                </span>
+            </button>
+        </div>
+        <script>
+        (function(){
+            var b=document.getElementById('qhClipBtn');if(!b)return;
+            b.addEventListener('click',function(){
+                var f=b.querySelector('.qh-clip-frame');if(!f||f.dataset.on)return;f.dataset.on='1';f.classList.add('is-playing');
+                var i=document.createElement('iframe');
+                i.setAttribute('allow','autoplay; encrypted-media; picture-in-picture; fullscreen');
+                i.setAttribute('allowfullscreen','');i.title='Quantum Humanitarian';
+                i.src='https://www.youtube-nocookie.com/embed/nlKzqosz4-M?autoplay=1&rel=0&modestbranding=1&playsinline=1';
+                f.innerHTML='';f.appendChild(i);
+            });
+        })();
+        </script>
     </div>
 </section>
 
