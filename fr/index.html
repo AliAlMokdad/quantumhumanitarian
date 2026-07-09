@@ -60,10 +60,8 @@
     <meta property="og:locale:alternate" content="pl_PL">
     <meta property="og:locale:alternate" content="fa_IR">
     <meta property="og:locale:alternate" content="ur_PK">
-    <meta property="books:author" content="https://alialmokdadleadership.com">
-    <meta property="books:isbn" content="9798281406802">
-    <meta property="books:rating:value" content="5">
-    <meta property="books:rating:scale" content="5">
+    <meta property="book:author" content="https://alialmokdadleadership.com">
+    <meta property="book:isbn" content="9798281406802">
 
     <!-- Twitter / X Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -91,7 +89,7 @@
       "isbn": "9798281406802",
       "genre": ["Humanitaire", "Mémoire", "Leadership", "Philanthropie", "Études sur les réfugiés", "Réponse aux conflits"],
       "bookFormat": "EBook",
-      "numberOfPages": "200",
+      "numberOfPages": 200,
       "award": "Nouvelle sortie n°1 sur Amazon — Philanthropie, Études sur les réfugiés et Réponse aux conflits (2025)",
       "datePublished": "2025-04",
       "dateModified": "2025-05",
@@ -168,27 +166,6 @@
     }
     </script>
 
-    <!-- ═══ JSON-LD: BreadcrumbList (helps Google show site navigation) ═══ -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Accueil",
-          "item": "https://quantumhumanitarian.ink/fr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Quantum Humanitarian",
-          "item": "https://quantumhumanitarian.ink/fr/"
-        }
-      ]
-    }
-    </script>
 
     <!-- ═══ JSON-LD: FAQPage (shows expandable Q&A directly in Google results) ═══ -->
     <script type="application/ld+json">
@@ -267,7 +244,7 @@
     --cream:   #f0ebe0;
     --cream-d: #ccc5b4;
     --dim:     rgba(240,235,224,0.55);
-    --dimmer:  rgba(240,235,224,0.28);
+    --dimmer:  rgba(240,235,224,0.55);
     --serif:   'Cormorant Garamond', Georgia, serif;
     --sans:    'Inter', system-ui, sans-serif;
 }
@@ -1084,7 +1061,7 @@ html[dir="rtl"] .lang-item.lang-active { border-right-color: var(--gold); }
     opacity: 1;
     transform: scale(1) translateY(0);
 }
-.orb-popup h4 {
+.orb-popup h3 {
     font-family: var(--serif);
     font-size: 1.3rem;
     color: var(--cream);
@@ -1583,7 +1560,7 @@ footer {
 <div id="progress-bar"></div>
 
 <!-- NAV -->
-<nav id="nav">
+<nav id="nav" aria-label="Primary">
     <a href="#" class="nav-logo">Quantum Humanitarian<sup class="brand-tm" aria-hidden="true">&#8482;</sup></a>
     <ul class="nav-links">
         <li><a href="#about">Le livre</a></li>
@@ -1591,26 +1568,26 @@ footer {
         <li><a href="#author">L'auteur</a></li>
         <li><a href="#get-book" class="nav-cta">Obtenir le livre</a></li>
         <li class="lang-switch">
-            <button class="lang-toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="lang-menu" aria-label="Choose language">
+            <button class="lang-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="lang-menu" aria-label="Choose language">
                 <span class="lang-current">FR</span>
                 <svg class="lang-caret" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </button>
-            <div class="lang-menu" id="lang-menu" role="listbox" aria-label="Select language">
-                <a href="/" hreflang="en" lang="en" class="lang-item" role="option"><span class="lang-name">English</span><span class="lang-code">EN</span></a>
-                <a href="/fr/" hreflang="fr" lang="fr" class="lang-item lang-active" role="option" aria-selected="true"><span class="lang-name">Français</span><span class="lang-code">FR</span></a>
-                <a href="/es/" hreflang="es" lang="es" class="lang-item" role="option"><span class="lang-name">Español</span><span class="lang-code">ES</span></a>
-                <a href="/de/" hreflang="de" lang="de" class="lang-item" role="option"><span class="lang-name">Deutsch</span><span class="lang-code">DE</span></a>
-                <a href="/no/" hreflang="no" lang="no" class="lang-item" role="option"><span class="lang-name">Norsk</span><span class="lang-code">NO</span></a>
-                <a href="/ar/" hreflang="ar" lang="ar" class="lang-item" role="option"><span class="lang-name" dir="rtl">العربية</span><span class="lang-code">AR</span></a>
-                <a href="/sv/" hreflang="sv" lang="sv" class="lang-item" role="option"><span class="lang-name">Svenska</span><span class="lang-code">SV</span></a>
-                <a href="/da/" hreflang="da" lang="da" class="lang-item" role="option"><span class="lang-name">Dansk</span><span class="lang-code">DA</span></a>
-                <a href="/it/" hreflang="it" lang="it" class="lang-item" role="option"><span class="lang-name">Italiano</span><span class="lang-code">IT</span></a>
-                <a href="/nl/" hreflang="nl" lang="nl" class="lang-item" role="option"><span class="lang-name">Nederlands</span><span class="lang-code">NL</span></a>
-                <a href="/ja/" hreflang="ja" lang="ja" class="lang-item" role="option"><span class="lang-name">日本語</span><span class="lang-code">JA</span></a>
-                <a href="/zh/" hreflang="zh" lang="zh" class="lang-item" role="option"><span class="lang-name">中文</span><span class="lang-code">ZH</span></a>
-                <a href="/pl/" hreflang="pl" lang="pl" class="lang-item" role="option"><span class="lang-name">Polski</span><span class="lang-code">PL</span></a>
-                <a href="/fa/" hreflang="fa" lang="fa" class="lang-item" role="option"><span class="lang-name" dir="rtl">فارسی</span><span class="lang-code">FA</span></a>
-                <a href="/ur/" hreflang="ur" lang="ur" class="lang-item" role="option"><span class="lang-name" dir="rtl">اردو</span><span class="lang-code">UR</span></a>
+            <div class="lang-menu" id="lang-menu" aria-label="Select language">
+                <a href="/" hreflang="en" lang="en" class="lang-item"><span class="lang-name">English</span><span class="lang-code">EN</span></a>
+                <a href="/fr/" hreflang="fr" lang="fr" class="lang-item lang-active"><span class="lang-name">Français</span><span class="lang-code">FR</span></a>
+                <a href="/es/" hreflang="es" lang="es" class="lang-item"><span class="lang-name">Español</span><span class="lang-code">ES</span></a>
+                <a href="/de/" hreflang="de" lang="de" class="lang-item"><span class="lang-name">Deutsch</span><span class="lang-code">DE</span></a>
+                <a href="/no/" hreflang="no" lang="no" class="lang-item"><span class="lang-name">Norsk</span><span class="lang-code">NO</span></a>
+                <a href="/ar/" hreflang="ar" lang="ar" class="lang-item"><span class="lang-name" dir="rtl">العربية</span><span class="lang-code">AR</span></a>
+                <a href="/sv/" hreflang="sv" lang="sv" class="lang-item"><span class="lang-name">Svenska</span><span class="lang-code">SV</span></a>
+                <a href="/da/" hreflang="da" lang="da" class="lang-item"><span class="lang-name">Dansk</span><span class="lang-code">DA</span></a>
+                <a href="/it/" hreflang="it" lang="it" class="lang-item"><span class="lang-name">Italiano</span><span class="lang-code">IT</span></a>
+                <a href="/nl/" hreflang="nl" lang="nl" class="lang-item"><span class="lang-name">Nederlands</span><span class="lang-code">NL</span></a>
+                <a href="/ja/" hreflang="ja" lang="ja" class="lang-item"><span class="lang-name">日本語</span><span class="lang-code">JA</span></a>
+                <a href="/zh/" hreflang="zh" lang="zh" class="lang-item"><span class="lang-name">中文</span><span class="lang-code">ZH</span></a>
+                <a href="/pl/" hreflang="pl" lang="pl" class="lang-item"><span class="lang-name">Polski</span><span class="lang-code">PL</span></a>
+                <a href="/fa/" hreflang="fa" lang="fa" class="lang-item"><span class="lang-name" dir="rtl">فارسی</span><span class="lang-code">FA</span></a>
+                <a href="/ur/" hreflang="ur" lang="ur" class="lang-item"><span class="lang-name" dir="rtl">اردو</span><span class="lang-code">UR</span></a>
             </div>
         </li>
     </ul>
@@ -1758,7 +1735,7 @@ footer {
             <div class="orb-sphere"><span class="orb-era">Passé</span><span class="orb-name">Témoin</span></div>
             <div class="orb-popup" style="top:-90px;left:120px;">
                 <span class="s-label">Le passé</span>
-                <h4>Le témoin</h4>
+                <h3>Le témoin</h3>
                 <p>La version d'Ali qui était là, sur le terrain, dans les camps, gardienne des histoires des invisibles. Son témoignage forme le socle de la vérité.</p>
             </div>
         </div>
@@ -1767,7 +1744,7 @@ footer {
             <div class="orb-sphere"><span class="orb-era">Présent</span><span class="orb-name">Juge</span></div>
             <div class="orb-popup" style="top:-60px;left:120px;">
                 <span class="s-label">Le présent</span>
-                <h4>Le juge intérieur</h4>
+                <h3>Le juge intérieur</h3>
                 <p>La version qui se tient entre le savoir et l'ignorance, qui interroge les systèmes, affronte les vérités inconfortables et refuse de détourner le regard.</p>
             </div>
         </div>
@@ -1776,7 +1753,7 @@ footer {
             <div class="orb-sphere"><span class="orb-era">Futur</span><span class="orb-name">Bâtisseur</span></div>
             <div class="orb-popup" style="top:90px;left:120px;">
                 <span class="s-label">Le futur</span>
-                <h4>Le bâtisseur</h4>
+                <h3>Le bâtisseur</h3>
                 <p>La version qui imagine ce qui est possible, une nouvelle architecture du soin fondée sur la proximité, la dignité et la présence.</p>
             </div>
         </div>
@@ -1822,14 +1799,14 @@ footer {
             </div>
             <div class="bestseller-stack">
                 <div class="bestseller">
-                    <span class="bs-emoji">🏆</span>
+                    <span class="bs-emoji" aria-hidden="true">🏆</span>
                     <div>
                         <strong>Nouvelle sortie n°1 sur Amazon</strong>
                         <span>Philanthropie · Études sur les réfugiés · Réponse aux conflits · 2025</span>
                     </div>
                 </div>
                 <div class="bestseller">
-                    <span class="bs-emoji">📰</span>
+                    <span class="bs-emoji" aria-hidden="true">📰</span>
                     <div>
                         <strong>Mis en avant dans The Copenhagen Post</strong>
                         <span>Danemark · Mai 2025</span>
@@ -1839,17 +1816,17 @@ footer {
         </div>
         <div class="reviews">
             <div class="rcard reveal from-below" data-tilt>
-                <div class="stars">★★★★★</div>
+                <div class="stars" role="img" aria-label="Rated 5 out of 5">★★★★★</div>
                 <blockquote>« Une œuvre rare qui ose être à la fois dévastatrice de vérité et silencieusement pleine d'espoir. Ali Al Mokdad écrit depuis la blessure, et depuis la cicatrice. »</blockquote>
                 <cite>Lecteur Amazon</cite>
             </div>
             <div class="rcard reveal from-below" data-tilt style="transition-delay:0.15s">
-                <div class="stars">★★★★★</div>
+                <div class="stars" role="img" aria-label="Rated 5 out of 5">★★★★★</div>
                 <blockquote>« Lecture essentielle pour quiconque s'est déjà demandé : que signifie aider, et à quel prix ? Mokdad répond avec une grâce farouche. »</blockquote>
                 <cite>Professionnel humanitaire</cite>
             </div>
             <div class="rcard reveal from-below" data-tilt style="transition-delay:0.3s">
-                <div class="stars">★★★★★</div>
+                <div class="stars" role="img" aria-label="Rated 5 out of 5">★★★★★</div>
                 <blockquote>« Le format de récit quantique est un coup de maître. Il reflète l'expérience fragmentée et stratifiée du travail humanitaire lui-même. Inoubliable. »</blockquote>
                 <cite>Praticien du développement international</cite>
             </div>
@@ -1865,7 +1842,7 @@ footer {
                 <div class="author-frame">
                     <img src="/author.jpg" srcset="/author-sm.jpg 600w, /author.jpg 1200w" sizes="(max-width: 640px) 600px, 1200px" alt="Ali Al Mokdad, auteur de Quantum Humanitarian" loading="lazy" decoding="async" width="1200" height="660">
                 </div>
-                <svg class="corner-svg ctL" viewBox="0 0 64 64"><path class="cpath" d="M60,4 L4,4 L4,60"/></svg>
+                <svg class="corner-svg ctl" viewBox="0 0 64 64"><path class="cpath" d="M60,4 L4,4 L4,60"/></svg>
                 <svg class="corner-svg ctr" viewBox="0 0 64 64"><path class="cpath" d="M60,4 L4,4 L4,60"/></svg>
                 <svg class="corner-svg cbl" viewBox="0 0 64 64"><path class="cpath" d="M60,4 L4,4 L4,60"/></svg>
                 <svg class="corner-svg cbr" viewBox="0 0 64 64"><path class="cpath" d="M60,4 L4,4 L4,60"/></svg>
@@ -1913,7 +1890,7 @@ footer {
         <div class="formats">
             <!-- KINDLE EBOOK -->
             <div class="fcard reveal from-below" data-tilt>
-                <span class="fcard-ico">📱</span>
+                <span class="fcard-ico" aria-hidden="true">📱</span>
                 <h3 class="fcard-name">Kindle eBook</h3>
                 <p class="fcard-desc">Accès numérique instantané. Lisez-le sur n'importe quel appareil avec l'application Kindle gratuite.</p>
                 <div class="buy-links">
@@ -1938,7 +1915,7 @@ footer {
 
             <!-- PAPERBACK -->
             <div class="fcard reveal from-below" data-tilt style="transition-delay:0.1s">
-                <span class="fcard-ico">📖</span>
+                <span class="fcard-ico" aria-hidden="true">📖</span>
                 <h3 class="fcard-name">Broché</h3>
                 <p class="fcard-desc">Le tenir. Le toucher. L'édition physique, imprimée et livrée partout dans le monde.</p>
                 <div class="buy-links">
@@ -1963,7 +1940,7 @@ footer {
 
             <!-- HARDCOVER -->
             <div class="fcard reveal from-below" data-tilt style="transition-delay:0.2s">
-                <span class="fcard-ico">📚</span>
+                <span class="fcard-ico" aria-hidden="true">📚</span>
                 <h3 class="fcard-name">Relié</h3>
                 <p class="fcard-desc">L'édition collector. Reliure premium pour un livre qui mérite sa place dans la bibliothèque.</p>
                 <div class="buy-links">
@@ -2016,7 +1993,7 @@ footer {
             <div class="f-brand">Quantum <span>Humanitarian</span></div>
             <div class="f-tag">Témoigner de la chute, préserver ce qui demeure, et amorcer la reconstruction</div>
         </div>
-        <nav class="f-nav">
+        <nav class="f-nav" aria-label="Footer">
             <a href="#about">Le livre</a>
             <a href="#quantum">La méthode</a>
             <a href="#author">L'auteur</a>
@@ -2284,7 +2261,9 @@ window.addEventListener('scroll', () => {
 ================================================================ */
 document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {
-        const t = document.querySelector(a.getAttribute('href'));
+        const href = a.getAttribute('href');
+        if (href === '#' || href === '') return;
+        const t = document.querySelector(href);
         if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
     });
 });

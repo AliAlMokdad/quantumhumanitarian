@@ -61,10 +61,8 @@
     <meta property="og:locale:alternate" content="pl_PL">
     <meta property="og:locale:alternate" content="fa_IR">
     <meta property="og:locale:alternate" content="ur_PK">
-    <meta property="books:author" content="https://alialmokdadleadership.com">
-    <meta property="books:isbn" content="9798281406802">
-    <meta property="books:rating:value" content="5">
-    <meta property="books:rating:scale" content="5">
+    <meta property="book:author" content="https://alialmokdadleadership.com">
+    <meta property="book:isbn" content="9798281406802">
 
     <!-- Twitter / X Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -92,7 +90,7 @@
       "isbn": "9798281406802",
       "genre": ["人道主义", "回忆录", "领导力", "慈善", "难民研究", "冲突应对"],
       "bookFormat": "EBook",
-      "numberOfPages": "200",
+      "numberOfPages": 200,
       "award": "亚马逊新品热度榜第1名 — 慈善、难民研究与冲突应对(2025年)",
       "datePublished": "2025-04",
       "dateModified": "2025-05",
@@ -169,27 +167,6 @@
     }
     </script>
 
-    <!-- ═══ JSON-LD: BreadcrumbList (helps Google show site navigation) ═══ -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "首页",
-          "item": "https://quantumhumanitarian.ink/zh/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "量子人道主义",
-          "item": "https://quantumhumanitarian.ink/zh/"
-        }
-      ]
-    }
-    </script>
 
     <!-- ═══ JSON-LD: FAQPage (shows expandable Q&A directly in Google results) ═══ -->
     <script type="application/ld+json">
@@ -268,7 +245,7 @@
     --cream:   #f0ebe0;
     --cream-d: #ccc5b4;
     --dim:     rgba(240,235,224,0.55);
-    --dimmer:  rgba(240,235,224,0.28);
+    --dimmer:  rgba(240,235,224,0.55);
     --serif:   'Cormorant Garamond', Georgia, serif;
     --sans:    'Inter', system-ui, sans-serif;
 }
@@ -1085,7 +1062,7 @@ html[dir="rtl"] .lang-item.lang-active { border-right-color: var(--gold); }
     opacity: 1;
     transform: scale(1) translateY(0);
 }
-.orb-popup h4 {
+.orb-popup h3 {
     font-family: var(--serif);
     font-size: 1.3rem;
     color: var(--cream);
@@ -1584,7 +1561,7 @@ footer {
 <div id="progress-bar"></div>
 
 <!-- NAV -->
-<nav id="nav">
+<nav id="nav" aria-label="Primary">
     <a href="#" class="nav-logo">Quantum Humanitarian<sup class="brand-tm" aria-hidden="true">&#8482;</sup></a>
     <ul class="nav-links">
         <li><a href="#about">本书</a></li>
@@ -1592,26 +1569,26 @@ footer {
         <li><a href="#author">作者</a></li>
         <li><a href="#get-book" class="nav-cta">购买本书</a></li>
         <li class="lang-switch">
-            <button class="lang-toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="lang-menu" aria-label="Choose language">
+            <button class="lang-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="lang-menu" aria-label="Choose language">
                 <span class="lang-current">ZH</span>
                 <svg class="lang-caret" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </button>
-            <div class="lang-menu" id="lang-menu" role="listbox" aria-label="Select language">
-                <a href="/" hreflang="en" lang="en" class="lang-item" role="option"><span class="lang-name">English</span><span class="lang-code">EN</span></a>
-                <a href="/fr/" hreflang="fr" lang="fr" class="lang-item" role="option"><span class="lang-name">Français</span><span class="lang-code">FR</span></a>
-                <a href="/es/" hreflang="es" lang="es" class="lang-item" role="option"><span class="lang-name">Español</span><span class="lang-code">ES</span></a>
-                <a href="/de/" hreflang="de" lang="de" class="lang-item" role="option"><span class="lang-name">Deutsch</span><span class="lang-code">DE</span></a>
-                <a href="/no/" hreflang="no" lang="no" class="lang-item" role="option"><span class="lang-name">Norsk</span><span class="lang-code">NO</span></a>
-                <a href="/ar/" hreflang="ar" lang="ar" class="lang-item" role="option"><span class="lang-name" dir="rtl">العربية</span><span class="lang-code">AR</span></a>
-                <a href="/sv/" hreflang="sv" lang="sv" class="lang-item" role="option"><span class="lang-name">Svenska</span><span class="lang-code">SV</span></a>
-                <a href="/da/" hreflang="da" lang="da" class="lang-item" role="option"><span class="lang-name">Dansk</span><span class="lang-code">DA</span></a>
-                <a href="/it/" hreflang="it" lang="it" class="lang-item" role="option"><span class="lang-name">Italiano</span><span class="lang-code">IT</span></a>
-                <a href="/nl/" hreflang="nl" lang="nl" class="lang-item" role="option"><span class="lang-name">Nederlands</span><span class="lang-code">NL</span></a>
-                <a href="/ja/" hreflang="ja" lang="ja" class="lang-item" role="option"><span class="lang-name">日本語</span><span class="lang-code">JA</span></a>
-                <a href="/zh/" hreflang="zh" lang="zh" class="lang-item lang-active" role="option" aria-selected="true"><span class="lang-name">中文</span><span class="lang-code">ZH</span></a>
-                <a href="/pl/" hreflang="pl" lang="pl" class="lang-item" role="option"><span class="lang-name">Polski</span><span class="lang-code">PL</span></a>
-                <a href="/fa/" hreflang="fa" lang="fa" class="lang-item" role="option"><span class="lang-name" dir="rtl">فارسی</span><span class="lang-code">FA</span></a>
-                <a href="/ur/" hreflang="ur" lang="ur" class="lang-item" role="option"><span class="lang-name" dir="rtl">اردو</span><span class="lang-code">UR</span></a>
+            <div class="lang-menu" id="lang-menu" aria-label="Select language">
+                <a href="/" hreflang="en" lang="en" class="lang-item"><span class="lang-name">English</span><span class="lang-code">EN</span></a>
+                <a href="/fr/" hreflang="fr" lang="fr" class="lang-item"><span class="lang-name">Français</span><span class="lang-code">FR</span></a>
+                <a href="/es/" hreflang="es" lang="es" class="lang-item"><span class="lang-name">Español</span><span class="lang-code">ES</span></a>
+                <a href="/de/" hreflang="de" lang="de" class="lang-item"><span class="lang-name">Deutsch</span><span class="lang-code">DE</span></a>
+                <a href="/no/" hreflang="no" lang="no" class="lang-item"><span class="lang-name">Norsk</span><span class="lang-code">NO</span></a>
+                <a href="/ar/" hreflang="ar" lang="ar" class="lang-item"><span class="lang-name" dir="rtl">العربية</span><span class="lang-code">AR</span></a>
+                <a href="/sv/" hreflang="sv" lang="sv" class="lang-item"><span class="lang-name">Svenska</span><span class="lang-code">SV</span></a>
+                <a href="/da/" hreflang="da" lang="da" class="lang-item"><span class="lang-name">Dansk</span><span class="lang-code">DA</span></a>
+                <a href="/it/" hreflang="it" lang="it" class="lang-item"><span class="lang-name">Italiano</span><span class="lang-code">IT</span></a>
+                <a href="/nl/" hreflang="nl" lang="nl" class="lang-item"><span class="lang-name">Nederlands</span><span class="lang-code">NL</span></a>
+                <a href="/ja/" hreflang="ja" lang="ja" class="lang-item"><span class="lang-name">日本語</span><span class="lang-code">JA</span></a>
+                <a href="/zh/" hreflang="zh" lang="zh" class="lang-item lang-active"><span class="lang-name">中文</span><span class="lang-code">ZH</span></a>
+                <a href="/pl/" hreflang="pl" lang="pl" class="lang-item"><span class="lang-name">Polski</span><span class="lang-code">PL</span></a>
+                <a href="/fa/" hreflang="fa" lang="fa" class="lang-item"><span class="lang-name" dir="rtl">فارسی</span><span class="lang-code">FA</span></a>
+                <a href="/ur/" hreflang="ur" lang="ur" class="lang-item"><span class="lang-name" dir="rtl">اردو</span><span class="lang-code">UR</span></a>
             </div>
         </li>
     </ul>
@@ -1760,7 +1737,7 @@ footer {
             <div class="orb-sphere"><span class="orb-era">过去</span><span class="orb-name">见证者</span></div>
             <div class="orb-popup" style="top:-90px;left:120px;">
                 <span class="s-label">过去</span>
-                <h4>见证者</h4>
+                <h3>见证者</h3>
                 <p>那个曾在现场的阿里——在田野、在难民营,守护着被忽视者的故事。他的证词构成真实的根基。</p>
             </div>
         </div>
@@ -1769,7 +1746,7 @@ footer {
             <div class="orb-sphere"><span class="orb-era">现在</span><span class="orb-name">清算者</span></div>
             <div class="orb-popup" style="top:-60px;left:120px;">
                 <span class="s-label">现在</span>
-                <h4>内在的清算者</h4>
+                <h3>内在的清算者</h3>
                 <p>处于知与不知之间的那个版本:质问体系、直面不安的真相、拒绝转头不看。</p>
             </div>
         </div>
@@ -1778,7 +1755,7 @@ footer {
             <div class="orb-sphere"><span class="orb-era">未来</span><span class="orb-name">重建者</span></div>
             <div class="orb-popup" style="top:90px;left:120px;">
                 <span class="s-label">未来</span>
-                <h4>重建者</h4>
+                <h3>重建者</h3>
                 <p>那个想象"可能为何"的版本——一种建立在贴近、尊严与在场之上的新型关怀架构。</p>
             </div>
         </div>
@@ -1824,14 +1801,14 @@ footer {
             </div>
             <div class="bestseller-stack">
                 <div class="bestseller">
-                    <span class="bs-emoji">🏆</span>
+                    <span class="bs-emoji" aria-hidden="true">🏆</span>
                     <div>
                         <strong>亚马逊新品热度榜第1名</strong>
                         <span>慈善 · 难民研究 · 冲突应对 · 2025</span>
                     </div>
                 </div>
                 <div class="bestseller">
-                    <span class="bs-emoji">📰</span>
+                    <span class="bs-emoji" aria-hidden="true">📰</span>
                     <div>
                         <strong>《The Copenhagen Post》专题报道</strong>
                         <span>丹麦 · 2025年5月</span>
@@ -1841,17 +1818,17 @@ footer {
         </div>
         <div class="reviews">
             <div class="rcard reveal from-below" data-tilt>
-                <div class="stars">★★★★★</div>
+                <div class="stars" role="img" aria-label="Rated 5 out of 5">★★★★★</div>
                 <blockquote>"一部罕见的作品,敢于同时呈现毁灭性的诚实与沉静的希望。阿里·阿尔莫克达德从伤口书写,也从伤疤书写。"</blockquote>
                 <cite>亚马逊读者</cite>
             </div>
             <div class="rcard reveal from-below" data-tilt style="transition-delay:0.15s">
-                <div class="stars">★★★★★</div>
+                <div class="stars" role="img" aria-label="Rated 5 out of 5">★★★★★</div>
                 <blockquote>"凡曾问过『何谓帮助、其代价几何』之人,皆应一读。莫克达德以一种凌厉而优雅的方式作答。"</blockquote>
                 <cite>人道主义工作者</cite>
             </div>
             <div class="rcard reveal from-below" data-tilt style="transition-delay:0.3s">
-                <div class="stars">★★★★★</div>
+                <div class="stars" role="img" aria-label="Rated 5 out of 5">★★★★★</div>
                 <blockquote>"量子叙事的形式堪称神来之笔,映照出人道主义工作本身那种破碎而层叠的经验。难以忘怀。"</blockquote>
                 <cite>国际发展从业者</cite>
             </div>
@@ -1867,7 +1844,7 @@ footer {
                 <div class="author-frame">
                     <img src="/author.jpg" srcset="/author-sm.jpg 600w, /author.jpg 1200w" sizes="(max-width: 640px) 600px, 1200px" alt="阿里·阿尔莫克达德,《量子人道主义》作者" loading="lazy" decoding="async" width="1200" height="660">
                 </div>
-                <svg class="corner-svg ctL" viewBox="0 0 64 64"><path class="cpath" d="M60,4 L4,4 L4,60"/></svg>
+                <svg class="corner-svg ctl" viewBox="0 0 64 64"><path class="cpath" d="M60,4 L4,4 L4,60"/></svg>
                 <svg class="corner-svg ctr" viewBox="0 0 64 64"><path class="cpath" d="M60,4 L4,4 L4,60"/></svg>
                 <svg class="corner-svg cbl" viewBox="0 0 64 64"><path class="cpath" d="M60,4 L4,4 L4,60"/></svg>
                 <svg class="corner-svg cbr" viewBox="0 0 64 64"><path class="cpath" d="M60,4 L4,4 L4,60"/></svg>
@@ -1915,7 +1892,7 @@ footer {
         <div class="formats">
             <!-- KINDLE EBOOK -->
             <div class="fcard reveal from-below" data-tilt>
-                <span class="fcard-ico">📱</span>
+                <span class="fcard-ico" aria-hidden="true">📱</span>
                 <h3 class="fcard-name">Kindle电子书</h3>
                 <p class="fcard-desc">即时数字访问。借助免费的Kindle应用,在任意设备上阅读。</p>
                 <div class="buy-links">
@@ -1940,7 +1917,7 @@ footer {
 
             <!-- PAPERBACK -->
             <div class="fcard reveal from-below" data-tilt style="transition-delay:0.1s">
-                <span class="fcard-ico">📖</span>
+                <span class="fcard-ico" aria-hidden="true">📖</span>
                 <h3 class="fcard-name">平装版</h3>
                 <p class="fcard-desc">捧在手中,感受纸页。实体版,印刷并发往全球。</p>
                 <div class="buy-links">
@@ -1965,7 +1942,7 @@ footer {
 
             <!-- HARDCOVER -->
             <div class="fcard reveal from-below" data-tilt style="transition-delay:0.2s">
-                <span class="fcard-ico">📚</span>
+                <span class="fcard-ico" aria-hidden="true">📚</span>
                 <h3 class="fcard-name">精装版</h3>
                 <p class="fcard-desc">收藏版。精良装帧,值得放上书架长久保存的一本书。</p>
                 <div class="buy-links">
@@ -2018,7 +1995,7 @@ footer {
             <div class="f-brand">Quantum <span>Humanitarian</span></div>
             <div class="f-tag">见证崩塌,守护所余,重启重建</div>
         </div>
-        <nav class="f-nav">
+        <nav class="f-nav" aria-label="Footer">
             <a href="#about">本书</a>
             <a href="#quantum">方法</a>
             <a href="#author">作者</a>
@@ -2286,7 +2263,9 @@ window.addEventListener('scroll', () => {
 ================================================================ */
 document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {
-        const t = document.querySelector(a.getAttribute('href'));
+        const href = a.getAttribute('href');
+        if (href === '#' || href === '') return;
+        const t = document.querySelector(href);
         if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
     });
 });
