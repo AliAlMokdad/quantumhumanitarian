@@ -41,10 +41,12 @@
     <meta property="og:description" content="亚马逊“慈善”、“难民研究”与“冲突应对”新品热度榜第1名。一部直击人心的回忆录,讲述人道主义体系的崩塌——以及接下来必须发生的事。">
     <meta property="og:type" content="book">
     <meta property="og:url" content="https://quantumhumanitarian.ink/zh/">
-    <meta property="og:image" content="https://quantumhumanitarian.ink/cover.jpg">
-    <meta property="og:image:width" content="1500">
-    <meta property="og:image:height" content="2000">
-    <meta property="og:image:alt" content="《量子人道主义》封面 阿里·阿尔莫克达德 著">
+    <meta property="og:image" content="https://quantumhumanitarian.ink/share.jpg">
+    <meta property="og:image:secure_url" content="https://quantumhumanitarian.ink/share.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="阿里·阿尔莫克达德手持其著作《Quantum Humanitarian》">
     <meta property="og:site_name" content="Quantum Humanitarian">
     <meta property="og:locale" content="zh_CN">
     <meta property="og:locale:alternate" content="en_US">
@@ -66,11 +68,12 @@
 
     <!-- Twitter / X Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@alialmokdad">
+    <meta name="twitter:site" content="@AlMokdadAli1">
+    <meta name="twitter:creator" content="@AlMokdadAli1">
     <meta name="twitter:title" content="《量子人道主义》| 亚马逊畅销书第1名 阿里·阿尔莫克达德 著">
     <meta name="twitter:description" content="慈善与难民研究新品热度榜第1名。一部关于人道主义领导力、危机以及体系崩塌之后所留下之物的里程碑式回忆录。">
-    <meta name="twitter:image" content="https://quantumhumanitarian.ink/cover.jpg">
-    <meta name="twitter:image:alt" content="《量子人道主义》封面 — 羊皮纸设计配以剪影与废墟">
+    <meta name="twitter:image" content="https://quantumhumanitarian.ink/share.jpg">
+    <meta name="twitter:image:alt" content="阿里·阿尔莫克达德手持其著作《Quantum Humanitarian》">
 
     <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛</text></svg>">
@@ -150,7 +153,7 @@
       },
       "hasOccupation": { "@type": "Occupation", "name": "Humanitarian Leader and Author" },
       "award": "#1 Amazon Hot New Release — Philanthropy, Refugee Studies & Conflict Response (2025)",
-      "sameAs": ["https://alialmokdadleadership.com", "https://alialmokdad.com", "https://alialmokdadinarabic.com", "https://quantumhumanitarian.ink", "https://www.linkedin.com/in/alialmokdad/", "https://twitter.com/alialmokdad", "https://www.amazon.com/author/alialmokdad"]
+      "sameAs": ["https://alialmokdadleadership.com", "https://alialmokdad.com", "https://alialmokdadinarabic.com", "https://quantumhumanitarian.ink", "https://www.linkedin.com/in/ali-al-mokdad/", "https://x.com/AlMokdadAli1", "https://www.youtube.com/@AliAlMokdadInsights", "https://www.tiktok.com/@alialmokdadinsights", "https://medium.com/@almokdadali1", "https://orcid.org/0009-0000-2825-5855", "https://www.amazon.com/author/alialmokdad"]
     }
     </script>
 
@@ -1280,6 +1283,51 @@ html[dir="rtl"] .pcard:hover .press-cue i { transform: scaleX(-1) translateX(5px
     html[dir="rtl"] .pcard:hover .press-cue i { transform: scaleX(-1); }
 }
 
+/* ---- phone: the fixed bar has no room for the buy action without breaking the wordmark,
+       so the action lives in its own bar at the foot of the screen ---- */
+.buybar { display: none; }
+@media (max-width: 1100px) {
+    .buybar {
+        display: block;
+        position: fixed;
+        left: 0; right: 0; bottom: 0;
+        z-index: 1001;
+        padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+        background: rgba(4,4,10,0.94);
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+        border-top: 1px solid rgba(201,168,76,0.22);
+    }
+    .buybar a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 48px;
+        background: var(--gold);
+        color: var(--black);
+        font-family: var(--sans);
+        font-size: 0.82rem;
+        font-weight: 500;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 2px;
+    }
+    .buybar a:active { background: var(--gold-lt); }
+    /* the bar is 69px, so the hero shortens and the footer gains clearance rather than sitting under it.
+       both selectors outrank the plain footer/hero rules that appear later in this file. */
+    /* the hero content is taller than a phone viewport, so a fixed height clipped the buy button.
+       height:auto lets it size to its content; the extra bottom padding keeps that button above the bar. */
+    #hero { height: auto; min-height: calc(100vh - 78px); }
+    #hero .hero-inner { padding: 64px 40px 24px; gap: 30px; }
+    body footer { padding-bottom: 118px; }
+}
+@media (max-width: 640px) {
+    #get-book .buy-regions { grid-template-columns: 1fr 1fr; gap: 10px; }
+    #get-book .buy-regions .bl { padding: 12px 8px; justify-content: center; text-align: center; }
+}
+@media (prefers-reduced-motion: reduce) { .buybar { transition: none; } }
+
 /* ============================================================
    AUTHOR
 ============================================================ */
@@ -1656,6 +1704,9 @@ footer {
 </head>
 <body>
 
+<!-- MOBILE BUY BAR -->
+<div class="buybar"><a href="#get-book">购买本书</a></div>
+
 <!-- SCROLL PROGRESS -->
 <div id="progress-bar"></div>
 
@@ -1666,7 +1717,7 @@ footer {
         <li><a href="#about">本书</a></li>
         <li><a href="#quantum">方法</a></li>
         <li><a href="#author">作者</a></li>
-        <li><a href="#get-book" class="nav-cta">购买本书</a></li>
+        <li class="nav-cta-item"><a href="#get-book" class="nav-cta">购买本书</a></li>
         <li class="lang-switch">
             <button class="lang-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="lang-menu" aria-label="Choose language">
                 <span class="lang-current">ZH</span>

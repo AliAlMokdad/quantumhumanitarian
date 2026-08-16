@@ -4,7 +4,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://quantumhumanitarian.ink/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
@@ -12,17 +12,27 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://quantumhumanitarian.ink/es/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://quantumhumanitarian.ink/de/"/>
     <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
+
+    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
+
+    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
+
+    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
+
+    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
+
+    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
+
+    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
+
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
     <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
     <image:image>
       <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
       <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
@@ -32,171 +42,12 @@
       <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
       <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
       <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
+    </image:image>
+
   </url>
   <url>
     <loc>https://quantumhumanitarian.ink/fr/</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://quantumhumanitarian.ink/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://quantumhumanitarian.ink/es/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://quantumhumanitarian.ink/de/"/>
-    <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
-    <image:image>
-      <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
-      <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
-      <image:caption>#1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response (2025)</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
-      <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
-      <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://quantumhumanitarian.ink/es/</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://quantumhumanitarian.ink/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://quantumhumanitarian.ink/es/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://quantumhumanitarian.ink/de/"/>
-    <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
-    <image:image>
-      <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
-      <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
-      <image:caption>#1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response (2025)</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
-      <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
-      <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://quantumhumanitarian.ink/de/</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://quantumhumanitarian.ink/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://quantumhumanitarian.ink/es/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://quantumhumanitarian.ink/de/"/>
-    <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
-    <image:image>
-      <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
-      <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
-      <image:caption>#1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response (2025)</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
-      <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
-      <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://quantumhumanitarian.ink/no/</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://quantumhumanitarian.ink/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://quantumhumanitarian.ink/es/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://quantumhumanitarian.ink/de/"/>
-    <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
-    <image:image>
-      <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
-      <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
-      <image:caption>#1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response (2025)</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
-      <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
-      <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://quantumhumanitarian.ink/ar/</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://quantumhumanitarian.ink/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://quantumhumanitarian.ink/es/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://quantumhumanitarian.ink/de/"/>
-    <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
-    <image:image>
-      <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
-      <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
-      <image:caption>#1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response (2025)</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
-      <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
-      <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://quantumhumanitarian.ink/sv/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
@@ -205,16 +56,26 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://quantumhumanitarian.ink/de/"/>
     <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
+
+    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
+
+    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
+
+    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
+
+    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
+
+    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
+
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
     <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
     <image:image>
       <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
       <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
@@ -224,11 +85,184 @@
       <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
       <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
       <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
+    </image:image>
+
   </url>
   <url>
-    <loc>https://quantumhumanitarian.ink/da/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://quantumhumanitarian.ink/es/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quantumhumanitarian.ink/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quantumhumanitarian.ink/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quantumhumanitarian.ink/de/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
+
+    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
+
+    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
+
+    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
+
+    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
+
+    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
+
+    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
+
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
+    <image:image>
+      <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
+      <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
+      <image:caption>#1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response (2025)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
+      <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
+      <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
+    </image:image>
+
+  </url>
+  <url>
+    <loc>https://quantumhumanitarian.ink/de/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quantumhumanitarian.ink/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quantumhumanitarian.ink/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quantumhumanitarian.ink/de/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
+
+    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
+
+    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
+
+    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
+
+    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
+
+    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
+
+    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
+
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
+    <image:image>
+      <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
+      <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
+      <image:caption>#1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response (2025)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
+      <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
+      <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
+    </image:image>
+
+  </url>
+  <url>
+    <loc>https://quantumhumanitarian.ink/no/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quantumhumanitarian.ink/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quantumhumanitarian.ink/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quantumhumanitarian.ink/de/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
+
+    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
+
+    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
+
+    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
+
+    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
+
+    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
+
+    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
+
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
+    <image:image>
+      <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
+      <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
+      <image:caption>#1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response (2025)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
+      <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
+      <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
+    </image:image>
+
+  </url>
+  <url>
+    <loc>https://quantumhumanitarian.ink/ar/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quantumhumanitarian.ink/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quantumhumanitarian.ink/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quantumhumanitarian.ink/de/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
+
+    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
+
+    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
+
+    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
+
+    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
+
+    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
+
+    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
+
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
+    <image:image>
+      <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
+      <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
+      <image:caption>#1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response (2025)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
+      <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
+      <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
+    </image:image>
+
+  </url>
+  <url>
+    <loc>https://quantumhumanitarian.ink/sv/</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
@@ -238,15 +272,24 @@
     <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
+
+    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
+
+    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
+
+    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
+
+    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
+
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
     <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
     <image:image>
       <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
       <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
@@ -256,11 +299,12 @@
       <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
       <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
       <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
+    </image:image>
+
   </url>
   <url>
-    <loc>https://quantumhumanitarian.ink/it/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://quantumhumanitarian.ink/da/</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
@@ -271,14 +315,22 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
+
+    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
+
+    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
+
+    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
+
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
     <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
     <image:image>
       <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
       <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
@@ -288,11 +340,12 @@
       <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
       <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
       <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
+    </image:image>
+
   </url>
   <url>
-    <loc>https://quantumhumanitarian.ink/nl/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://quantumhumanitarian.ink/it/</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
@@ -304,13 +357,20 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
+
+    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
+
+    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
+
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
     <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
     <image:image>
       <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
       <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
@@ -320,11 +380,12 @@
       <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
       <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
       <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
+    </image:image>
+
   </url>
   <url>
-    <loc>https://quantumhumanitarian.ink/ja/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://quantumhumanitarian.ink/nl/</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
@@ -337,12 +398,18 @@
     <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
+
+    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
+
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
     <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
     <image:image>
       <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
       <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
@@ -352,11 +419,12 @@
       <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
       <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
       <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
+    </image:image>
+
   </url>
   <url>
-    <loc>https://quantumhumanitarian.ink/zh/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://quantumhumanitarian.ink/ja/</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
@@ -370,11 +438,16 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
+
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
     <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
     <image:image>
       <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
       <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
@@ -384,11 +457,12 @@
       <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
       <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
       <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
+    </image:image>
+
   </url>
   <url>
-    <loc>https://quantumhumanitarian.ink/pl/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://quantumhumanitarian.ink/zh/</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
@@ -403,10 +477,14 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
     <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
     <image:image>
       <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
       <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
@@ -416,11 +494,12 @@
       <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
       <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
       <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
+    </image:image>
+
   </url>
   <url>
-    <loc>https://quantumhumanitarian.ink/fa/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://quantumhumanitarian.ink/pl/</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
@@ -436,9 +515,12 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
     <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
     <image:image>
       <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
       <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
@@ -448,11 +530,47 @@
       <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
       <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
       <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
+    </image:image>
+
+  </url>
+  <url>
+    <loc>https://quantumhumanitarian.ink/fa/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://quantumhumanitarian.ink/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://quantumhumanitarian.ink/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://quantumhumanitarian.ink/de/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://quantumhumanitarian.ink/no/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://quantumhumanitarian.ink/ar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://quantumhumanitarian.ink/sv/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://quantumhumanitarian.ink/da/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://quantumhumanitarian.ink/it/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://quantumhumanitarian.ink/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://quantumhumanitarian.ink/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://quantumhumanitarian.ink/zh/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
+
+    <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
+    <image:image>
+      <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
+      <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
+      <image:caption>#1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response (2025)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
+      <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
+      <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
+    </image:image>
+
   </url>
   <url>
     <loc>https://quantumhumanitarian.ink/ur/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://quantumhumanitarian.ink/"/>
@@ -470,7 +588,8 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://quantumhumanitarian.ink/pl/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://quantumhumanitarian.ink/fa/"/>
     <xhtml:link rel="alternate" hreflang="ur" href="https://quantumhumanitarian.ink/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quantumhumanitarian.ink/"/>
+
     <image:image>
       <image:loc>https://quantumhumanitarian.ink/cover.jpg</image:loc>
       <image:title>Quantum Humanitarian by Ali Al Mokdad</image:title>
@@ -480,6 +599,7 @@
       <image:loc>https://quantumhumanitarian.ink/author.jpg</image:loc>
       <image:title>Ali Al Mokdad, Author of Quantum Humanitarian</image:title>
       <image:caption>Senior humanitarian leader. Witness to collapse, strategist of care.</image:caption>
-    </image:image>
+    </image:image>
+
   </url>
 </urlset>
