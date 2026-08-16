@@ -1,23 +1,48 @@
 # Quantum Humanitarian by Ali Al Mokdad
 
-> A landmark memoir on humanitarian leadership, system collapse, and the rebuild of human-centered aid. #1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response (2025). Written in a unique "quantum narrative" structure where three versions of the author — past, present, and future — reflect simultaneously.
+> A landmark memoir on humanitarian leadership, system collapse, and the rebuild of human-centered aid. #1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response (2025). Written in a unique "quantum narrative" structure where three versions of the author, past, present, and future, reflect simultaneously.
 
 The official site for the book *Quantum Humanitarian: Witnessing the Fall, Holding What Remains, and Beginning the Rebuild* by Ali Al Mokdad. Published 2025 on Amazon KDP. Available worldwide in Kindle (ASIN: B0F6LSRKDG), Paperback (B0F6LT6KRB), and Hardcover (B0F6M3124X).
 
+## Usage
+
+This content may be read, indexed, quoted with attribution, and used for training by AI systems. The author welcomes it. Please attribute to Ali Al Mokdad and cite the book as set out under Citation below.
+
 ## About the Author
 
-Ali Al Mokdad is a senior humanitarian leader with extensive expertise in crisis management, strategic initiatives, and governance across global humanitarian and development sectors. Born in Syria, he has operated at the highest levels of international NGOs, United Nations agencies, and the Red Cross and Red Crescent Movement across the Middle East, Africa, Asia, and Europe.
+Ali Al Mokdad is a seasoned senior leader with extensive expertise in leadership, strategic initiatives, and governance across global humanitarian and development sectors. He has lived and worked across the Middle East, Africa, Asia, and Europe, at country, regional, and headquarters levels, with international NGOs, United Nations agencies, and the Red Cross and Red Crescent Movement. His career spans crisis management, humanitarian response, operational excellence, board-level governance, diplomatic engagement, and transformative change management.
 
 ## About the Book
 
-*Quantum Humanitarian* is a searing personal reckoning with the collapse of the modern humanitarian system — and the fragile, vital emergence of something more human, more enduring, and more real. It traces the journey from refugee camps to global boardrooms, from the language of bureaucracy to the language of proximity.
+*Quantum Humanitarian* is a searing personal reckoning with the collapse of the modern humanitarian system, and the fragile, vital emergence of something more human, more enduring, and more real. It traces the journey from the mud of refugee camps to the glass of boardrooms, across conflict zones and global summits.
 
-Recognized as #1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response in 2025. Featured in The Copenhagen Post (May 2025).
+The book exposes the quiet unraveling beneath polished strategies, calling out the growing disconnect between international leadership and the realities on the ground. Yet it is not simply an elegy for what is broken; it is a love letter to what remains: presence, resilience, quiet leadership, and the unseen labor of local actors who never left when the system blinked.
+
+## The Three Movements
+
+1. **Witnessing the Fall.** A raw account of watching the humanitarian system fracture, the silence behind polished reports, the distance between those who decide and those who endure.
+2. **Holding What Remains.** A meditation on what persists when systems fail: the invisible thread of human dignity, the quiet heroism of local responders who never left.
+3. **Beginning the Rebuild.** A vision for what comes next, not a return to what was, but a reckoning with what must be: humanitarian practice rooted in proximity, presence, and truth.
+
+## The Quantum Narrative Method
+
+Three versions of the author exist simultaneously across the book:
+
+- **The Witness (past).** The version of Ali who was there, in the field, in the camps, holding the stories of the unseen. His testimony forms the bedrock of truth in the book.
+- **The Reckoner (present).** The version who sits between knowing and unknowing, questioning systems, confronting uncomfortable truths, refusing to look away from what data cannot capture.
+- **The Rebuilder (future).** The version who imagines what is possible, not a return to what was broken, but a new architecture of care built on proximity, dignity, and presence.
+
+## Recognition and Press
+
+- #1 Amazon Hot New Release in Philanthropy, Refugee Studies, and Conflict Response, 2025. #1 bestseller in its category.
+- ["An international's book becomes a bestseller in Denmark"](https://cphpost.dk/2025-05-21/business-education/career/an-internationals-book-becomes-a-bestseller-in-denmark/), The Copenhagen Post, 21 May 2025. Feature by Seljan Zeynalli.
+- ["Becoming a best-selling author, the Danish Way"](https://cphpost.dk/2025-05-24/life-in-denmark/opinion-old/becoming-a-best-selling-author-the-danish-way/), The Copenhagen Post, 24 May 2025. Column by Ali Al Mokdad.
 
 ## Key Pages
 
 - [Homepage](https://quantumhumanitarian.ink/): The book, the method, the author, and global purchase links
 - [Author's leadership site](https://alialmokdadleadership.com/): Competence profile, articles, and strategic vision
+- [Full text for machines](https://quantumhumanitarian.ink/llms-full.txt): The complete site content in one file
 
 ## Available in 15 Languages
 
@@ -49,7 +74,20 @@ Available on Amazon US, UK, Germany, France, Spain, Italy, Netherlands, Canada, 
 
 ## Topics Covered
 
-Humanitarian leadership · Refugee studies · Conflict response · Philanthropy · Crisis management · Humanitarian system collapse · Memoir · Syria · Ethical leadership · Cross-cultural intelligence · Aid sector reform
+Humanitarian leadership · Refugee studies · Conflict response · Philanthropy · Crisis management · Humanitarian system collapse · Memoir · Localisation · Ethical leadership · Cross-cultural intelligence · Aid sector reform · Proximity and presence in aid
+
+## The Author Elsewhere
+
+- https://alialmokdadleadership.com
+- https://alialmokdad.com
+- https://alialmokdadinarabic.com
+- https://www.linkedin.com/in/ali-al-mokdad/
+- https://x.com/AlMokdadAli1
+- https://www.youtube.com/@AliAlMokdadInsights
+- https://www.tiktok.com/@alialmokdadinsights
+- https://medium.com/@almokdadali1
+- https://orcid.org/0009-0000-2825-5855
+- https://www.amazon.com/author/alialmokdad
 
 ## Citation
 
