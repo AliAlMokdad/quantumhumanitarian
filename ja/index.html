@@ -979,17 +979,17 @@ html[dir="rtl"] .lang-item.lang-active { border-right-color: var(--gold); }
 .orbital-rig {
     position: relative;
     width: 860px;
-    height: 860px;
-    margin: 0 auto 80px;
+    height: 640px;
+    margin: 0 auto 64px;
 }
 .orb-center {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    width: 88px; height: 88px;
+    width: 108px; height: 108px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(201,168,76,0.45), rgba(201,168,76,0.04));
-    box-shadow: 0 0 50px rgba(201,168,76,0.3), 0 0 110px rgba(201,168,76,0.08);
+    background: radial-gradient(circle, rgba(201,168,76,0.5), rgba(201,168,76,0.05));
+    box-shadow: 0 0 60px rgba(201,168,76,0.34), 0 0 130px rgba(201,168,76,0.1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1008,8 +1008,8 @@ html[dir="rtl"] .lang-item.lang-active { border-right-color: var(--gold); }
 .orbit-node {
     position: absolute;
     top: 50%; left: 50%;
-    margin: -55px 0 0 -55px;
-    width: 110px; height: 110px;
+    margin: -84px 0 0 -84px;
+    width: 168px; height: 168px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1017,27 +1017,34 @@ html[dir="rtl"] .lang-item.lang-active { border-right-color: var(--gold); }
     cursor: pointer;
 }
 .orb-sphere {
-    width: 92px; height: 92px;
+    width: 150px; height: 150px;
     border-radius: 50%;
-    background: radial-gradient(circle at 35% 35%, rgba(201,168,76,0.35), rgba(201,168,76,0.04) 60%, transparent);
-    border: 1px solid rgba(201,168,76,0.3);
+    background: radial-gradient(circle at 34% 30%, rgba(201,168,76,0.46), rgba(201,168,76,0.13) 62%, rgba(201,168,76,0.03));
+    border: 1px solid rgba(201,168,76,0.55);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     transition: all 0.4s;
-    box-shadow: 0 0 28px rgba(201,168,76,0.08);
-    padding: 8px;
+    box-shadow: 0 0 46px rgba(201,168,76,0.16), inset 0 0 34px rgba(201,168,76,0.07);
+    padding: 14px;
 }
+/* the JS transform on each node makes it its own stacking context, so the popup's z-index
+   cannot escape it and later sibling orbs painted over the panel. lift the whole node. */
+.orbit-node:hover { z-index: 20; }
+/* the panel is pinned to the right of its orb, so once an orb swings to the right of the
+   orbit the panel ran off the screen. flip it to the inner side there. inline left wins
+   over the stylesheet, hence the important. */
+.orbit-node.flip-panel .orb-popup { left: auto !important; right: 186px; }
 .orbit-node:hover .orb-sphere {
-    width: 110px; height: 110px;
-    border-color: rgba(201,168,76,0.7);
-    box-shadow: 0 0 60px rgba(201,168,76,0.25);
-    background: radial-gradient(circle at 35% 35%, rgba(201,168,76,0.5), rgba(201,168,76,0.1) 60%, transparent);
+    width: 168px; height: 168px;
+    border-color: rgba(201,168,76,0.85);
+    box-shadow: 0 0 74px rgba(201,168,76,0.32);
+    background: radial-gradient(circle at 34% 30%, rgba(201,168,76,0.6), rgba(201,168,76,0.18) 62%, rgba(201,168,76,0.05));
 }
 .orb-era {
-    font-size: 0.62rem;
+    font-size: 0.82rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--gold);
@@ -1045,7 +1052,8 @@ html[dir="rtl"] .lang-item.lang-active { border-right-color: var(--gold); }
 }
 .orb-name {
     font-family: var(--serif);
-    font-size: 0.93rem;
+    font-size: 1.4rem;
+    line-height: 1.2;
     color: var(--cream);
 }
 .orb-popup {
@@ -1877,14 +1885,14 @@ footer {
     <div class="orbital-rig" id="orbitalRig">
         <div class="orb-center"><div class="orb-center-dot"></div></div>
         <svg class="orb-rings" width="860" height="860" viewBox="0 0 860 860" fill="none">
-            <ellipse cx="430" cy="430" rx="320" ry="96" stroke="rgba(201,168,76,0.1)" stroke-width="1" stroke-dasharray="4 7"/>
-            <ellipse cx="430" cy="430" rx="320" ry="96" stroke="rgba(201,168,76,0.06)" stroke-width="1" transform="rotate(60 430 430)" stroke-dasharray="4 7"/>
-            <ellipse cx="430" cy="430" rx="320" ry="96" stroke="rgba(201,168,76,0.06)" stroke-width="1" transform="rotate(-60 430 430)" stroke-dasharray="4 7"/>
+            <ellipse cx="430" cy="430" rx="320" ry="96" stroke="rgba(201,168,76,0.18)" stroke-width="1" stroke-dasharray="4 7"/>
+            <ellipse cx="430" cy="430" rx="320" ry="96" stroke="rgba(201,168,76,0.11)" stroke-width="1" transform="rotate(60 430 430)" stroke-dasharray="4 7"/>
+            <ellipse cx="430" cy="430" rx="320" ry="96" stroke="rgba(201,168,76,0.11)" stroke-width="1" transform="rotate(-60 430 430)" stroke-dasharray="4 7"/>
         </svg>
         <!-- Past -->
         <div class="orbit-node" id="on-past">
             <div class="orb-sphere"><span class="orb-era">過去</span><span class="orb-name">証人</span></div>
-            <div class="orb-popup" style="top:-90px;left:120px;">
+            <div class="orb-popup" style="top:-90px;left:186px;">
                 <span class="s-label">過去</span>
                 <h3>証人</h3>
                 <p>現場にいたアリ。キャンプの中で、見えない人々の物語を抱き続けた者。その証言が真実の礎を成す。</p>
@@ -1893,7 +1901,7 @@ footer {
         <!-- Present -->
         <div class="orbit-node" id="on-present">
             <div class="orb-sphere"><span class="orb-era">現在</span><span class="orb-name">問いかける者</span></div>
-            <div class="orb-popup" style="top:-60px;left:120px;">
+            <div class="orb-popup" style="top:-60px;left:186px;">
                 <span class="s-label">現在</span>
                 <h3>問いかける者</h3>
                 <p>知ることと知らないことの間に座る者。システムを問い、不快な真実と向き合い、目を逸らすことを拒む者。</p>
@@ -1902,7 +1910,7 @@ footer {
         <!-- Future -->
         <div class="orbit-node" id="on-future">
             <div class="orb-sphere"><span class="orb-era">未来</span><span class="orb-name">再建する者</span></div>
-            <div class="orb-popup" style="top:90px;left:120px;">
+            <div class="orb-popup" style="top:90px;left:186px;">
                 <span class="s-label">未来</span>
                 <h3>再建する者</h3>
                 <p>何が可能かを想像する者。近さ、尊厳、存在を土台に築かれる、新たなケアのアーキテクチャを構想する者。</p>
@@ -2413,9 +2421,10 @@ document.querySelectorAll('[data-tilt]').forEach(el => {
     function orbit() {
         nodes.forEach(n => {
             n.a += n.s;
-            const x = Math.cos(n.a) * R - 55;
-            const y = Math.sin(n.a) * (R * 0.30) - 55;
+            const x = Math.cos(n.a) * R - 84;
+            const y = Math.sin(n.a) * (R * 0.30) - 84;
             n.el.style.transform = `translate(${x}px, ${y}px)`;
+            n.el.classList.toggle('flip-panel', Math.cos(n.a) > 0.15);
         });
         requestAnimationFrame(orbit);
     }
